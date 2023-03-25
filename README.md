@@ -4,4 +4,6 @@ According to the website [Robokiller.com](https://www.robokiller.com/spam-text-i
 
 The goal of this project is to develop a SMS Spam Filter using the Multinomial Naive Bayes algorithm. In this project, we use data from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection) with 5,572 SMS messages that are already classified as `spam` or `ham` (non-spam) by humans. 
 ## Usage
-Contained fully in the notebook [naive_bayes_spam_filter.ipynb](./naive_bayes_spam_filter.ipynb), this project is primarily demonstrative of the Bayes algorithm and is not fully deployable. 
+Contained fully in the notebook [naive_bayes_spam_filter.ipynb](./naive_bayes_spam_filter.ipynb), this project is primarily demonstrative of the Bayes algorithm and is not fully deployable.
+## Findings
+The Multinomial Naive Bayes algorithm is 98.7% effective with the UCI data.
